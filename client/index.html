@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset = "UTF-8">
+        <link rel="icon" href="data:;base64,=">
+        <title>Game</title>
+        <style>
+            body {
+                background-image: url('https://pngimage.net/wp-content/uploads/2018/06/html-background-png-8.png');
+            }
+            #canvas {
+                position:absolute;
+                top:0px;
+                bottom:0px;
+                left:0px;
+                right:0px;
+                margin:auto;
+            }
+        </style>
+    </head>
+    <body>
+        <div id = "game" width = 800 height = 500>
+            <canvas style = 'border:1px solid black' width = 800 height = 500 id = "canvas"></canvas>
+        </div>
+        <script src = "https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.0/socket.io.js"></script>
+        <script src = "/client/js/Global_Var.js"></script>
+        <script src = "/client/js/Sound.js"></script>
+        <script src = "/client/js/Player.js"></script>
+        <script src = "/client/js/Bullet.js"></script>
+        <script src = "/client/js/HUD.js"></script>
+        <script src = "/client/js/Controls.js"></script>
+        <script src = "/client/js/Scene.js"></script>
+        <script src = "/client/js/Menu.js"></script>
+        <script src = "/client/js/Server_Comunication.js"></script>
+    </body>
+</html>
